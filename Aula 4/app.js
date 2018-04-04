@@ -6,14 +6,7 @@ var obj = {
 
 var str_Json = JSON.stringify(obj);
 
-var str = "{"name": "Pedro", "age":"12", "gender" "M"}";
-var str_Json = JSON.parse (str);
+var per = '{"name":"Pedro", "age":"12", "gender": "M"}';
+var obj_Json = JSON.parse(per);
 
-function Person(name, age, gender) {
-    this.name = name;
-    this.age = age;
-    this.gender = gender;
-    this.person = function () {
-        return this.name + " " + this.age + " " + this.gender;
-    }
-}
+per.name;
