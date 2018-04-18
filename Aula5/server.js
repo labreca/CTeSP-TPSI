@@ -16,6 +16,7 @@ app.get('/listPerson', function (request, response) {
     var f = readFile('./persons.json');
     response.send(f);
 });
+<<<<<<< HEAD
 //função para adicionar 
 app.post('/addPerson', function (request, response) {
     //ler ficheiro
@@ -65,3 +66,21 @@ app.listen(3000, function(){
     console.log('Example app listening on port 3000!');
     fs.writeFileSync("log.txt", "");
 });
+=======
+
+app.post('/addPerson', function (request, response) {
+    var f = readFile('./persons.json');
+    var jsonData = JSON.parse(f);
+
+    var size = Object.keys(jsonData).length;
+    var id = size + 1;
+
+    var person = request.body;
+    person.id = id;
+    jsonData["person" + id] = person;
+    response.send(jsonData);    
+});
+
+
+app.listen(3000, () => console.log('Example app listening on port 3000!'));
+>>>>>>> 3ead5ac5e781061196298c951f7ca4557f50ffc5

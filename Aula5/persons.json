@@ -1,6 +1,9 @@
 {
     "person1": {
+<<<<<<< HEAD
         "id": "1",
+=======
+>>>>>>> 3ead5ac5e781061196298c951f7ca4557f50ffc5
         "firstname": "Roberto",
         "last": "Fernandes",
         "gender": "M",
@@ -8,7 +11,10 @@
         "profession": "student"
     },
     "person2": {
+<<<<<<< HEAD
         "id": "2",
+=======
+>>>>>>> 3ead5ac5e781061196298c951f7ca4557f50ffc5
         "firstname": "Jose",
         "last": "Gomes",
         "gender": "M",
@@ -16,12 +22,18 @@
         "profession": "police"
     },
     "person3": {
+<<<<<<< HEAD
         "id": "3",
+=======
+>>>>>>> 3ead5ac5e781061196298c951f7ca4557f50ffc5
         "firstname": "Maria",
         "last": "Gomes",
         "gender": "F",
         "age": "38",
         "profession": "secretary"
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> 3ead5ac5e781061196298c951f7ca4557f50ffc5
 }
